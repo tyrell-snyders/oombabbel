@@ -2,13 +2,10 @@
     "name": "live-chat",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://sfsadespair.github.io",
     "scripts": {
         "dev": "vite --host",
         "build": "vite build",
-        "preview": "vite preview",
-        "predeploy": "vite build",
-        "deploy": "gh-pages -d build"
+        "preview": "vite preview"
     },
     "dependencies": {
         "axios": "^0.27.2",
