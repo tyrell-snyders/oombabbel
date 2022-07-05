@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+button,
+input {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 8px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #26025b;
+    border-radius: 30px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #3d098c;
+}
+
+.emoji-picker-react {
+    position: absolute;
+    top: -350px;
+    box-shadow: 0.5px 10px #9a86F3;
+    border-color: #9a86F3;
+    width: 20px;
+}
