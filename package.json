@@ -2,10 +2,7 @@
     "name": "live-chat",
     "private": true,
     "version": "0.0.0",
-<<<<<<< HEAD
-=======
-    "homepage": "https://sfsadespair.github.io/oombabbel/",
->>>>>>> bb564c75ea0f3e12dbbb1322ded964f735de7bf2
+
     "scripts": {
         "dev": "vite --host",
         "build": "vite build",
